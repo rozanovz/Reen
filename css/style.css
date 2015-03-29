@@ -1,0 +1,19 @@
+/*TOP HADER WITH SOCIAL*/
+.header-upper{background-color: #f5f7fb;height: 40px;}
+.header-upper .fa{padding: 2.3%;}
+.header-upper .left{color:#506a85;font-size: 0.75em;}
+.header-upper .right i{width:30px;float:right;}
+/******************************************************************************/
+/*HEADER WITH LOGO AND NAVIGATION*/
+.navigation .navbar-nav{margin: 1%;}
+.navigation .navbar-nav a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color:#506a85;
+}
+.navigation .col-md-1 i{margin-top: 35%;color:#506a85;}
+
+/******************************************************************************/
+/*ABOUT*/
+.about h2, p{text-align:center;}
+.about p{width: 45.5%; display:}
