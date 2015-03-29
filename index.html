@@ -14,6 +14,7 @@
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/hover.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,11 +27,11 @@
     <div class="container-fluid header-upper">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 left">
+                <div class="col-md-6 col-sm-6 col-xs-6 left">
                    <a><span class="fa fa-envelope-o"> info@reen.com</span></a>
                    <span class="fa fa-mobile"> +00(123)456 78 90</span>
                 </div>
-                <div class="col-md-6 right">
+                <div class="col-md-6 col-sm-6 col-xs-6 right">
                    <a href="#" class="behance"><i class="fa fa-behance"></i></a>
                    <a href="#" class="fribbble"><i class="fa fa-dribbble"></i></a>  
                    <a href="#" class="pinterest"><i class="fa fa-pinterest-p"></i></a>
@@ -44,13 +45,19 @@
 <!--    HEADER WITH LOGO AND NAVIGATION-->
     <div class="container navigation">
       <div class="row">
-           <div class="col-md-9">
+           <div class="col-md-9 col-sm-9 col-xs-9">
                <div class="navbar-header">
-                <a href="#" class="navbar-brand">
-                    <img src="img/logo-up.png" alt="logo"/>
-                </a>
+                   <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#responsive-menu">
+                       <span class="sr-only">Open navigation</span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                   </button>
+                    <a href="#" class="navbar-brand">
+                        <img src="img/logo-up.png" alt="logo"/>
+                    </a>
             </div>
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="#responsive-menu">
                 <ul class="nav navbar-nav">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">PORTFOLIO</a></li>
@@ -62,7 +69,7 @@
                 </ul>
             </div>
            </div>
-           <div class="col-md-1">
+           <div class="col-md-1 col-sm-1 col-xs-1">
                <i class="fa fa-search"></i>
            </div>
         </div>
@@ -140,8 +147,8 @@
             </p>
         </div>
         <div class="row about-content">
-            <div class="col-md-1"><i class="fa fa-heart-o fa-3x"></i></div>
-            <div class="col-md-3">
+            <div class="col-md-1 col-sm-1 col-xs-1"><i class="fa fa-heart-o fa-3x"></i></div>
+            <div class="col-md-3 col-sm-3 col-xs-3">
                 <h4>Passion</h4>
                 <p>
                     Margins modipsae que lib voloratati
@@ -151,8 +158,8 @@
                     core posae volor remped modis volor
                 </p>
             </div>
-            <div class="col-md-1"><i class="fa fa-lightbulb-o fa-3x"></i></div>
-            <div class="col-md-3">
+            <div class="col-md-1 col-sm-1 col-xs-1"><i class="fa fa-lightbulb-o fa-3x"></i></div>
+            <div class="col-md-3 col-sm-3 col-xs-3">
                 <h4>Creativity</h4>
                 <p>
                     Margins modipsae que lib voloratati
@@ -162,8 +169,8 @@
                     core posae volor remped modis volor
                 </p>
             </div>
-            <div class="col-md-1"><i class="fa fa-star-o fa-3x"></i></div>
-            <div class="col-md-3">
+            <div class="col-md-1 col-sm-1 col-xs-1"><i class="fa fa-star-o fa-3x"></i></div>
+            <div class="col-md-3 col-sm-3 col-xs-3">
                 <h4>Quality</h4>
                 <p>
                     Margins modipsae que lib voloratati
@@ -183,7 +190,7 @@
                 <p>Margins modiosae que voloratati andigen daepeditem quiate re pirem aut labor</p>
             </div>
             <div class="row works-content">
-                <div class="col-md-6">
+                <div class="col-md-6  col-sm-6 col-xs-6">
                     <figure>
                         <p><img src="img/grand-motel.png" alt=""></p>
                         <figcaption>
@@ -192,7 +199,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6  col-sm-6 col-xs-6">
                     <figure>
                         <p><img src="img/white-blue.png" alt=""></p>
                         <figcaption>
@@ -261,7 +268,7 @@
     <div class="container-fluid big-footer">
        <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3 col-xs-3">
                     <h5>WHO WE ARE</h5>
                     <p><img src="img/logo-btm.png"></p>
                     <p>
@@ -271,7 +278,7 @@
                     <a href="href" class="btn">More about us <i class="fa fa-arrow-right"></i></a>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3 col-xs-3">
                     <h5>LATEST WORKS</h5>
                     <img src="img/grand-motel-xs.png" alt="">
                     <img src="img/monitor-xs.png" alt="">
@@ -279,7 +286,7 @@
                     <img src="img/mobile-xs.png" alt="">
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3 col-xs-3">
                     <h5>GET IN TOUCH</h5>
                     <p>
                         Doloreiur quia commolu ptatemp dolupta oreprerum tibusam 
@@ -290,7 +297,7 @@
                     <p><a href=""><span class="fa fa-mobile"> +00(123)456 78 90</span></a></p>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3 col-xs-3">
                     <h5>FREE UPDATES</h5>
                     <p>Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
                     <p>
@@ -305,10 +312,10 @@
    <div class="container-fluid small-footer">
        <div class="container">
            <div class="row">
-               <div class="col-md-6 left">
+               <div class="col-md-6 col-sm-6 col-xs-6 left">
                    <span class="fa fa-copyright"> 2014 REEN. All right reserved</span>
                </div>
-               <div class="col-md-6 right">
+               <div class="col-md-6 col-sm-6 col-xs-6 right">
                    <span>
                        <a href="#">Home</a> • 
                        <a href="#">Portfolio</a> • 
