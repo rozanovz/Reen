@@ -42,12 +42,12 @@ body{min-width: 767px;}
 }
 
 .item-1 .carousel-caption{
-    bottom:250px;
+    bottom:35%;
     font-family: 'Lato', sans-serif;
     
 }
 .item-2 .carousel-caption{
-    bottom:200px;
+    bottom:20%;
     text-align: right;
     width: 48.3%;
     left:33%;
@@ -56,7 +56,7 @@ body{min-width: 767px;}
     margin-right: 0;
 }
 .item-3 .carousel-caption{
-    bottom:200px;
+    bottom:30%;
     text-align: left;
     left:10%;
     width: 42.3%;
@@ -66,7 +66,7 @@ body{min-width: 767px;}
     margin-left: 0;
 }
 .item-4 .carousel-caption{
-    bottom:250px;
+    bottom:30%;
     text-align: right;
     width: 44.3%;
     left:37%;
@@ -76,7 +76,7 @@ body{min-width: 767px;}
     color:#fff;
 }
 .item-5 .carousel-caption{
-    bottom:370px;
+    bottom:44%;
     width:38%;
     margin: 0 auto;
 }
@@ -160,7 +160,7 @@ figcaption a .btn{
 .carousel-indicators li{background:#506a85; border:none;}
 .carousel-indicators .active{background-color:#00bc9c}
 .carousel2-controls{display: none;}
-.carousel2-item img:not(:last-child){margin-right: 2.3%;}
+.carousel2-item img:not(:last-child){margin-right: 2.2%;}
 
 /******************************************************************************/
 /*CONTACT*/
